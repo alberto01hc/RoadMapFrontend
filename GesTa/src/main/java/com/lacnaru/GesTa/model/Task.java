@@ -9,7 +9,7 @@ import jakarta.persistence.Id;
 
 @Entity
 public class Task {
-    @Id
+    @Id 
     private String id;
     private String name;
     private String description;
